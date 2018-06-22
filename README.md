@@ -41,7 +41,6 @@ The innovation of this architecture is the use of a fixed-sized internal represe
 
 In one of the first applications of the architecture to English-to-French translation, the internal representation of the encoded English phrases was visualized. The plots revealed a qualitatively meaningful learned structure of the phrases harnessed for the translation task.
 
-![alt encdec](https://qph.fs.quoracdn.net/main-qimg-febee5b881545802a75c064a84ecf85d)
 
 
 ![alt enc-dec](https://qph.fs.quoracdn.net/main-qimg-febee5b881545802a75c064a84ecf85d)
