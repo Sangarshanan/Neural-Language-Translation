@@ -30,5 +30,22 @@ It involves duplicating the first recurrent layer in the network so that there a
 ![alt LSTM](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSlc4T67JL1OlnN7mLAmGQr6I1Xj-9f7H1XUp2odfXPh1mmW8)
 
 
+### Encoder Decoder
+
+
+One approach to seq2seq prediction problems that has proven very effective is called the Encoder-Decoder LSTM.
+
+This architecture is comprised of two models: one for reading the input sequence and encoding it into a fixed-length vector, and a second for decoding the fixed-length vector and outputting the predicted sequence. The use of the models in concert gives the architecture its name of Encoder-Decoder LSTM designed specifically for seq2seq problems.
+
+The innovation of this architecture is the use of a fixed-sized internal representation in the heart of the model that input sequences are read to and output sequences are read from. For this reason, the method may be referred to as sequence embedding.
+
+In one of the first applications of the architecture to English-to-French translation, the internal representation of the encoded English phrases was visualized. The plots revealed a qualitatively meaningful learned structure of the phrases harnessed for the translation task.
+
+![alt encdec](https://qph.fs.quoracdn.net/main-qimg-febee5b881545802a75c064a84ecf85d)
+
+
+![alt enc-dec](https://qph.fs.quoracdn.net/main-qimg-febee5b881545802a75c064a84ecf85d)
+
+
 
 
