@@ -10,7 +10,7 @@ Gated recurrent units (GRUs) are a gating mechanism in recurrent neural networks
 
 They have fewer parameters than LSTM, as they lack an output gate.
 
-![alt GRU](https://en.wikipedia.org/wiki/Gated_recurrent_unit#/media/File:Gated_Recurrent_Unit,_base_type.svg)
+![alt GRU](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT40y8e1AyGtWneAlHeNjCahIxQPYuhrHhb5IRoCkE1lbnECm90)
 
 ### LSTM with embedding layer:
 
